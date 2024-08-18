@@ -1,0 +1,55 @@
+.loginpage-photo-section {
+  display: flex;
+  justify-content: center;
+}
+
+.loginpage-photo {
+  width: 424px;
+  height: 424px;
+}
+
+.loginpage-description{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.loginpage-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.loginpage-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.loginpage-arrow-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.loginpage-pageline-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.pageline {
+  background-color: rgba(255, 255, 255, 0.5);;
+  width: 32px;
+  height: 4px;
+  margin: 5px;
+  border-radius: 8px 0px 0px 0px;
+}
+
+.pageline-white {
+  background-color: rgba(255, 255, 255, 1);
+}
