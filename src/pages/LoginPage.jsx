@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import LoginPageLeft from '../components/Login/LoginPageLeft';
 import LoginPageRight from '../components/Login/LoginPageRight';
 import styled from 'styled-components';
@@ -9,13 +10,14 @@ const LoginPageStyledContainer = styled.div`
   width: 100%;
 `;
 
-function LoginPage({}) {
+export default function LoginPage({}) {
+  
+  const [stepState, setStepState] = useState(0);
+  
   return (
      <LoginPageStyledContainer>
       <LoginPageLeft />
-      <LoginPageRight />
+      <LoginPageRight stepState={stepState} setStepState={setStepState}/>
      </LoginPageStyledContainer>
   );
 }
-
-export default LoginPage;
